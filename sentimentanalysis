@@ -1,0 +1,36 @@
+#1
+	$HADOOP_HOME/bin/hadoop fs -rm -r /HAproject/TwitterData.txt
+#2
+	$HADOOP_HOME/bin/hadoop fs -rm -r /HAproject/Out*
+
+
+cd $HADOOP_HOME/bin
+
+#3 Compile: TwitterData.java
+	javac -cp twitter4j-core-4.0.6.jar: TwitterData.java 
+
+#4 Run: TwitterData
+	java -cp twitter4j-core-4.0.6.jar: TwitterData
+
+
+
+#5 copy_files: 
+	$HADOOP_HOME/bin/hadoop fs -copyFromLocal /home/aaditya/Desktop/TwitterData.txt /HAproject
+
+
+
+#6 run: copy_files clean
+
+$HADOOP_HOME/bin/hadoop jar /root/IdeaProjects/ProjectFinalAH/out/artifacts/ProjectFinalAH_jar/ProjectFinalAH.jar org.myorg.MrManager /HAproject/TwitterData.txt /HAproject/Output -skip /HAproject/stop-words.txt -pos /HAproject/pos-words.txt -neg /HAproject/neg-words.txt
+
+
+#7 clean:
+	$HADOOP_HOME/bin/hadoop fs -rm -r /HAproject/Out*
+	
+
+
+#8 clean:
+	$HADOOP_HOME/bin/hadoop fs -rm -r /HAproject/Twit*
+#9
+
+	cd /home/aaditya/Desktop

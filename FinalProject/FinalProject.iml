@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/common/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/common/lib" />
+          <root url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/common/jdiff" />
+        </SOURCES>
+        <jarDirectory url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/common/lib" recursive="false" />
+        <jarDirectory url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/common/lib" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/mapreduce/lib" />
+          <root url="jar:///home/aaditya/hadoop-2.8.1/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.8.1.jar!/" />
+          <root url="jar:///home/aaditya/hadoop-2.8.1/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-2.8.1.jar!/" />
+          <root url="jar:///home/aaditya/hadoop-2.8.1/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.8.1.jar!/" />
+          <root url="jar:///home/aaditya/hadoop-2.8.1/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-plugins-2.8.1.jar!/" />
+          <root url="jar:///home/aaditya/hadoop-2.8.1/share/hadoop/mapreduce/hadoop-mapreduce-client-app-2.8.1.jar!/" />
+          <root url="jar:///home/aaditya/hadoop-2.8.1/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.8.1.jar!/" />
+          <root url="jar:///home/aaditya/hadoop-2.8.1/share/hadoop/mapreduce/hadoop-mapreduce-client-shuffle-2.8.1.jar!/" />
+          <root url="jar:///home/aaditya/hadoop-2.8.1/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.8.1-tests.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/mapreduce/jdiff" />
+          <root url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/mapreduce/sources" />
+        </SOURCES>
+        <jarDirectory url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/mapreduce/lib" recursive="false" />
+        <jarDirectory url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/mapreduce/sources" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/tools/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/tools/lib" />
+          <root url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/tools/sources" />
+        </SOURCES>
+        <jarDirectory url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/tools/lib" recursive="false" />
+        <jarDirectory url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/tools/lib" recursive="false" type="SOURCES" />
+        <jarDirectory url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/tools/sources" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/hdfs/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/hdfs/jdiff" />
+          <root url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/hdfs/lib" />
+        </SOURCES>
+        <jarDirectory url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/hdfs/lib" recursive="false" />
+        <jarDirectory url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/hdfs/lib" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/aaditya/hadoop-2.8.1/share/hadoop/common/hadoop-nfs-2.8.1.jar!/" />
+          <root url="jar:///home/aaditya/hadoop-2.8.1/share/hadoop/common/hadoop-common-2.8.1.jar!/" />
+          <root url="jar:///home/aaditya/hadoop-2.8.1/share/hadoop/common/hadoop-common-2.8.1-tests.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/common/sources" />
+        </SOURCES>
+        <jarDirectory url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/common/sources" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/yarn/lib" />
+          <root url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/yarn" />
+          <root url="file://$MODULE_DIR$" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/yarn/sources" />
+          <root url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/yarn/lib" />
+          <root url="file://$MODULE_DIR$/src/main/java" />
+        </SOURCES>
+        <jarDirectory url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/yarn" recursive="false" />
+        <jarDirectory url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/yarn/lib" recursive="false" />
+        <jarDirectory url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/yarn/lib" recursive="false" type="SOURCES" />
+        <jarDirectory url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/yarn/sources" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/yarn" />
+          <root url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/yarn/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/yarn/lib" />
+          <root url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/yarn/sources" />
+        </SOURCES>
+        <jarDirectory url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/yarn" recursive="false" />
+        <jarDirectory url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/yarn/lib" recursive="false" />
+        <jarDirectory url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/yarn/lib" recursive="false" type="SOURCES" />
+        <jarDirectory url="file:///home/aaditya/hadoop-2.8.1/share/hadoop/yarn/sources" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Maven: org.twitter4j:twitter4j-core:4.0.6" level="project" />
+  </component>
+</module>
